@@ -1,0 +1,59 @@
+#namep{
+	color:black;
+	font-size:20px;
+	position:absolute;
+	width:150px;
+	height:40px;
+	top:50px;
+	left:5px;
+}
+#naz{
+	color:black;
+	font-size:30px;
+	position:absolute;
+	width:150px;
+	height:40px;
+	top:35px;
+	left:50%;
+	margin-left:-75px;
+}
+#ot, #do{
+	color:black;
+	font-size:30px;
+	position:absolute;
+	width:150px;
+	height:40px;
+	top:85px;
+}
+#ot{
+	left:50px;
+}
+#do{
+	right:50px;
+}
+#op{
+	color:black;
+	font-size:30px;
+	position:absolute;
+	width:150px;
+	height:40px;
+	top:125px;
+}
+#nyz{
+	color:black;
+	font-size:30px;
+	position:absolute;
+	width:150px;
+	height:40px;
+	top:220px;
+	left:25px;
+}
+#kont{
+	color:black;
+	font-size:30px;
+	position:absolute;
+	width:150px;
+	height:40px;
+	top:220px;
+	right:25px;
+}
