@@ -1,0 +1,27 @@
+var a=0;
+regd.onclick=function(){
+	a=1;
+}
+reg.onclick=function(){
+	black.style.height="900px";
+	black.style.width="100%";
+	okno.style.width="400px";
+	okno.style.height="400px";
+}
+black.onclick=function(){
+	pb();
+}
+pb=function(){
+	black.style.height="0px";
+	black.style.width="0px";
+	okno.style.width="0px";
+	okno.style.height="0px";
+}
+est.onclick=function(){
+	regs.style.left="-100%";
+	log.style.left="0%";
+}
+nety.onclick=function(){
+	regs.style.left="0%";
+	log.style.left="100%";
+}
