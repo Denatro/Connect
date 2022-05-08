@@ -1,4 +1,5 @@
-﻿<html>
+﻿
+<html>
 	<head>
 		<title>Connect</title>
 		<script src="script/script.js" defer></script>
@@ -7,25 +8,24 @@
 		<link rel="stylesheet" href = "style/reg.css">
 		<link rel="stylesheet" href = "style/news.css">
 		<link rel="shortcut icon" href="kart\ikon.png" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+	
 	</head>
 	<body>
-		<form action="dop.php" method="post">
-		</form>
+		<form action="dop.php" method="post"></form>
+		<form action="auth.php" method="post"></form>
 		<div id="panel">
 				<button id="logo"><img src="kart\logo.png" width="100%" height="85%"></button>
 				<button id="reg">Регистрация</button>
-				<form action="prof.php">
-					<button id="prof"></button>
-				</form>
 		</div>
 		<div id="lenta">
 			<div id="poloska">
-				<div id="s1">1</div>
-				<div id="s2">2</div>
-				<div id="s3">3</div>
+				<div id="s1"><div id="txte"><b>На нашем сайте появился календарь<br><div id="sda" style="margin-left:100px; font-size:35px;">Успейте им воспользоваться</div></div><img src="kart\cal.png" width="100%" height="100%"></div>
+				<div id="s2"><div id="txte"><b>IT школа Гигабайт<br><div id="sda" style="margin-left:100px; font-size:35px;">Открывает набор учеников</div></div><img src="kart\sh.png" width="100%" height="100%"></div>
+				<div id="s3"><div id="txte"><b>Специалисты!<br><div id="sda" style="margin-left:100px; font-size:35px;">Найдите работу на нашем сайте</div></div><img src="kart\sp.png" width="100%" height="100%"></div>
 			</div>
-			<div id="nazad"></div>
-			<div id="vpered"></div>
+			<div id="nazad"><img src="kart\left.png" width="100%" height="100%"></div>
+			<div id="vpered"><img src="kart\right.png" width="100%" height="100%"></div>
 		</div>
 		<div id="panel2"></div>
 		<div id="glavp">
@@ -47,10 +47,9 @@
 		<div id="verh"></div>
 		<div id="black"></div>
 		<div id="okno">
-		
+			<div id="logotip"><img src="kart\logo.png" width="100%" height="100%"></div>
 			<div id="regs">
 				<div class="container mt-4">
-					<h1>Форма регистрации</h1>
 					<form action="check.php" method="post">
 						<input type="text" class="form-control" name="name" id="login" placeholder="Ведите название организации"><br>
 						<input type="text" class="form-control" name="email"id="email" placeholder="Ведите почту"><br>
@@ -63,7 +62,6 @@
 			</div>
 			<div id="log">
 				<div class="container mt-4">
-					<h1>Форма авторизации</h1>
 					<form action="auth.php" method="post">
 						<input type="text" class="form-control" name="email"id="email" placeholder="Ведите почту"><br>
 						<input type="password" class="form-control" name="pass" id="pass" placeholder="Ведите пароль"><br>

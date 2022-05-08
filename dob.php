@@ -9,7 +9,7 @@
 		$op = $_POST['op'];
 		$nyz = $_POST['nyz'];
 		$kont = $_POST['kont'];
-
+		
 		$mysql = new mysqli('localhost','root','root','register-bd');
 		$mysql->query("INSERT INTO `add`(`name`,`idp`, `naz`,`ot`,`do`,`tip`,`op`,`nyz`,`kont`)	VALUES('$name','$idp', '$naz','$ot','$do','$tip','$op','$nyz','$kont')");
 	
