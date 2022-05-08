@@ -48,7 +48,7 @@
 	top:300px;
 	left:100px;
 }
-#dobavit{
+#dobavitt{
 	position:absolute;
 	margin-top:20px;
 	width:250px;
@@ -57,6 +57,7 @@
 	margin-left:-125px;
 	border-radius:20px;
 	border:0px solid black;
+	background:lightgray;
 }
 #red{
 	position:absolute;
