@@ -1,4 +1,4 @@
-﻿var x=0; a=0;
+﻿var x=0;
 vpered.onclick=function(){
 	x=x-100;
 	if(x<=-300)
